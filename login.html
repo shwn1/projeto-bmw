@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login - BMW</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <section>
+            <div id="logo">
+            <img src="bmw.png" alt="logo">
+            </div>
+            <h1 id="logo">Conectar-se</h1>
+            <form action="login.php">
+                <p id="login">
+                    <label for="ilogin"  >Usuário</label>
+                    <br>
+                    <input class="dado" type="text" name="login" id="ilogin" required minlength="5" maxlength="15">
+                </p>
+                <p id="senha">
+                    <label for="isenha" >Senha</label>
+                    <br>
+                    <input class="dado" type="password" name="senha" id="isenha" required minlength="5" maxlength="15">
+                </p>
+                <p id="esqueceu">
+                    <a href="#">Esqueceu a senha?</a>
+                </p>
+
+                <p id="conectar-container">
+                    <input id="conectar" type="submit" value="Conectar">
+                </p>
+
+            </form>
+
+
+
+
+
+            
+        </section>
+    </main>
+</body>
+</html>
